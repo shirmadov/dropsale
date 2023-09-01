@@ -11,7 +11,7 @@ use Illuminate\Support\Collection;
 
 class ImportUsersController extends Controller
 {
-    protected $path = 'https://randomuser.me/api/?results=100';
+    protected $path = 'https://randomuser.me/api/?results=5000';
 
     public function importUsers(User $user){
 
